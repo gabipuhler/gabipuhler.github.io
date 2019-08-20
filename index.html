@@ -10,8 +10,14 @@
 
     <title>Profissão Desenvolvedor Web</title>
     <link rel="icon" href="imagens/favicon.png" />
+
+    <style>
+    body{position: relative;}
+    </style>
+
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#navbar-example2">
+
       <main class="container">
           <div class="jumbotron jumbotron-fluid rounded-lg shadow-lg bg-primary">
               <div class="container">
@@ -23,6 +29,23 @@
                   </p>
               </div>
           </div>
+            <!-- Inicio do Menu de Navegação-->
+  <nav id="navbar-example2" class="navbar navbar-light bg-light sticky-top">
+  <a class="navbar-brand" href="#">Gabriele Pühler</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#frontend">Front-End</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#backend">Back-End</a>
+    </li>
+        <li class="nav-item">
+      <a class="nav-link" href="#devops">DevOps</a>
+    </li>
+  </ul>
+</nav>
+
+  <!-- Fim do Menu de Navegação-->
           <!-- Carrossel-->
                   <div class="bd-example">
           <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -65,6 +88,32 @@
           </div>
         </div>
           <!-- Carrossel-->
+          
+          <!-- Inicio do Conteúdo da Barra de Navegação-->
+          <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+            <h4 id="frontend" style="padding-top:70px;">Front-End</h4>
+            <p>O desenvolvedor front-end é responsável por “dar vida” à interface. 
+            Trabalha com a parte da aplicação que interage diretamente com o usuário.
+            Por isso, é importante que esse 
+            desenvolvedor também se preocupe com a experiência do usuário.</p>
+            <p>Para CSS e JavaScript há bibliotecas e frameworks que alguns 
+            profissionais se especializam como: Angular, VueJS, Bootstrap, Sass, etc. </p>
+            <p>É comum alguns profissionais de front-end trabalharem mais com a parte
+              “criativa” e “artística” da aplicação. Assim como também há os que 
+              possuem um perfil mais voltado ao back-end, mesmo atuando como front-end. 
+              Esses possuem mais familiaridade com programação e suas nuances.
+              Um tipo de perfil não invalida o outro.</p>
+
+
+            <h4 id="backend" style="padding-top:70px;">Back-End</h4>
+            <p>...</p>          
+
+
+            <h4 id="devops" style="padding-top:70px;">DevOps</h4>
+            <p>...</p>           
+
+          </div>
+          <!-- Fim do Conteúdo da Barra de Navegação-->
       </main>
 
     <!-- Optional JavaScript -->
